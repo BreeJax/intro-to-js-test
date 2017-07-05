@@ -131,7 +131,7 @@ let thirsty = true;
 
 
 if (thirsty = true) {
-  console.log("I'm parched!");
+  console.log = "I'm parched!";
 } else {
   console.log("I've had enough to drink.");
 }
@@ -139,9 +139,9 @@ if (thirsty = true) {
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+let xx;
 
-if(x){
+if(xx){
 	console.log("True!");
 } else {
 	console.log("False!");
@@ -160,10 +160,10 @@ if(""){
 
 // 23.
 // this expression will set x to NaN
-{}
-  let x = 1 * undefined;
+{
+  let x1 = 1 * undefined;
 
-  if(x){
+  if(x1){
   	console.log("True!");
   } else {
   	console.log("False!");
