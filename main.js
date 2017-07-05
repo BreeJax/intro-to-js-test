@@ -45,7 +45,7 @@ math = high - "5";
 let born = 1984;
 let today = 2017;
 let age = today - born;
-console.log= "Tim is " + age + " years old"
+console.log("Tim is " + age + " years old")
 // A: see code
 
 
@@ -131,7 +131,7 @@ let thirsty = true;
 
 
 if (thirsty = true) {
-  console.log = "I'm parched!";
+  console.log = ("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
 }
